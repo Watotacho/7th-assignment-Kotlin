@@ -41,9 +41,7 @@ fun game(){
          println("Fizz")
       } else if (numbers % 5 == 0) {
       println("Buzz")
-   }else if(numbers%3==0 &&numbers% 5 ==0){
-      println("FizzBuzz")
-   }else{
+   } else{
    println(numbers)
 
       }
